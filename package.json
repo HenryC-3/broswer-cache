@@ -1,0 +1,16 @@
+{
+	"name": "cache",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"dependencies": {
+		"koa": "^2.13.1",
+		"koa-static": "^5.0.0"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"dev": "node index.js"
+	},
+	"author": "",
+	"license": "ISC"
+}
