@@ -1,7 +1,9 @@
 const koa = require("koa");
 const static = require("koa-static");
 const app = new koa();
+const conditional = require("koa-conditional-get");
 
+app.use(conditional());
 app.use(
 	// 可访问项目目录下的所有文件
 	static(".", {
